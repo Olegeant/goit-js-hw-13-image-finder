@@ -1,0 +1,23 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: -10px;
+}
+
+.gallery-item {
+  width: 360px;
+  margin: 10px;
+
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-shadow: 2px 1px 4px 2px rgba(0, 0, 0, 0.2);
+
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.load-more-btn {
+  margin-top: 20px;
+}

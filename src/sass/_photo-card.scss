@@ -1,0 +1,22 @@
+.gallery-image {
+  object-fit: cover;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -5px;
+  padding: 10px;
+}
+
+.stats p {
+  display: flex;
+  align-items: center;
+  margin: 4px;
+  font-size: 0.9rem;
+}
+
+.material-icons {
+  margin-right: 5px;
+}

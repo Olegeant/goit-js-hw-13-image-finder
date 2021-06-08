@@ -1,0 +1,38 @@
+.arrow-nav {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  background-color: rgba(0, 0, 255, 0.2);
+  box-shadow: 0px 0px 20px 1px white;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: rgba(0, 0, 255, 0.6);
+    cursor: pointer;
+  }
+}
+
+.back-to-top {
+  bottom: 15px;
+  right: 15px;
+}
+
+.down-to-bottom {
+  top: 15px;
+  right: 15px;
+}
+
+.arrow.material-icons {
+  color: #fff;
+  margin: 0;
+  left: 15px;
+  top: 14px;
+  font-size: 30px;
+}
