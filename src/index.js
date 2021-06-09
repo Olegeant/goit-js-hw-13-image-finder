@@ -79,8 +79,10 @@ const onLoadMore = () => {
 
   API.fetchImages()
     .then(handleImageData)
-    .then(() => scrollDown())
-    .then(() => hideLoadMoreBtn())
+    .then(() => {
+      scrollDown();
+      hideLoadMoreBtn();
+    })
     .catch(() => errorHandler());
 };
 
