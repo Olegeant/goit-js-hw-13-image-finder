@@ -172,5 +172,5 @@ const API = new ImageApiService();
 const loadMoreObserver = registerLoadMoreObserver(onLoadMore);
 
 const lightbox = basicLightbox.create(`
-    <img src="" alt="photo" width="800" height="600">
+    <img src="" class="lightbox-img" alt="photo" width="800" height="600">
 `);
